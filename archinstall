@@ -127,7 +127,9 @@
         "sys_lang": "en_US"
     },
     "mirror_config": null,
-    "network_config": {},
+    "network_config": {
+        "type": "nm"
+    },
     "no_pkg_lookups": false,
     "ntp": true,
     "offline": false,
@@ -149,15 +151,13 @@
     "parallel downloads": 0,
     "profile_config": {
         "gfx_driver": "All open-source",
-        "greeter": "sddm",
+        "greeter": "ly",
         "profile": {
             "custom_settings": {
-                "Hyprland": {
-                    "seat_access": "polkit"
-                }
+                "Kde": {}
             },
             "details": [
-                "Hyprland"
+                "Kde"
             ],
             "main": "Desktop"
         }
