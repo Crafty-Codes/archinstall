@@ -134,6 +134,7 @@
     "ntp": true,
     "offline": false,
     "packages": [
+        "firefox",
         "neofetch",
         "xclip",
         "neovim",
