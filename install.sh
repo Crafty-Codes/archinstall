@@ -13,3 +13,9 @@ git clone https://github.com/Crafty-Codes/doom-emacs-config.git ~/.config/doom
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+git clone https://github.com/vinceliuice/Layan-kde.git
+(cd Layan-kde && ./install.sh)
+
+git clone https://github.com/esjeon/krohnkite.git
+(cd krohnkite && make install)
