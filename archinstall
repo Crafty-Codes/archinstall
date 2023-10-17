@@ -147,6 +147,7 @@
         "git",
         "docker-compose",
         "htop",
+        "flatpak",
         "emacs-nativecomp"
     ],
     "parallel downloads": 0,
