@@ -11,11 +11,15 @@ git clone https://github.com/Crafty-Codes/doom-emacs-config.git ~/.config/doom
 ~/.config/emacs/bin/doom sync
 
 git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+(cd yay && makepkg -si)
 
-git clone https://github.com/vinceliuice/Layan-kde.git
-(cd Layan-kde && ./install.sh)
+plasmapkg2 -t kwinscript -i krohnkite.kwinscript
 
-git clone https://github.com/esjeon/krohnkite.git
-(cd krohnkite && make install)
+flatpak install com.valvesoftware.Steam
+flatpak install net.lutris.Lutris
+flatpak install com.vysp3r.ProtonPlus
+flatpak install com.discordapp.Discord
+
+yay -S aur/ungoogled-chromium
+
+echo Layan and setting nerdfont

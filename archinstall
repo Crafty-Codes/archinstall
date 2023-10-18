@@ -148,7 +148,8 @@
         "docker-compose",
         "htop",
         "flatpak",
-        "emacs-nativecomp"
+        "emacs-nativecomp",
+        "ttf-roboto-mono-nerd"
     ],
     "parallel downloads": 0,
     "profile_config": {
