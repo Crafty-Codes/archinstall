@@ -20,6 +20,6 @@ flatpak install net.lutris.Lutris
 flatpak install com.vysp3r.ProtonPlus
 flatpak install com.discordapp.Discord
 
-yay -S aur/ungoogled-chromium
+yay -S aur/mullvad-vpn aur/ungoogled-chromium
 
 echo Layan and setting nerdfont
